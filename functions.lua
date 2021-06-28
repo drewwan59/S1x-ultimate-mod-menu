@@ -1,35 +1,30 @@
+levelstruct = level:getstruct()
+
 function doNuke_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].nuke(player)
 end
 
 function doEmp_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].emp(player)
 end
 
 function giveGoliathAirdrop_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].heavy_exosuit(player)
 end
 
 function giveCarePackage_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].orbital_carepackage(player)
 end
 
 function giveCarePackageRare_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].airdrop_reinforcement_rare(player)
 end
 
 function giveCarePackageUncommon_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].airdrop_reinforcement_uncommon(player)
 end
 
 function mapKillstreak_mp(player)
-    local levelstruct = level:getstruct()
     local mapname = game:getdvar("mapname")
 
     if (mapname == "mp_bigben2") then
@@ -68,7 +63,6 @@ function mapKillstreak_mp(player)
 end
 
 function remoteSentry_mp(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].remote_mg_turret(player)
 end
 
@@ -125,37 +119,30 @@ function toggleHigherExoJumping(player)
 end
 
 function invisible_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].zm_camouflage(player)
 end
 
 function ugv_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].zm_ugv(player)
 end
 
 function sentry_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].zm_sentry(player)
 end
 
 function carepackage_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].orbital_carepackage(player)
 end
 
 function squadmate_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].zm_squadmate(player)
 end
 
 function disruptor_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].zm_disruptor(player)
 end
 
 function goliath_zm(player)
-    local levelstruct = level:getstruct()
     levelstruct[21400].zm_goliath_suit(player)
 end
 
