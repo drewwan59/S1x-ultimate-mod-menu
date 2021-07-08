@@ -1,7 +1,7 @@
 # S1x ultimate mod menu
 A zombie and multiplayer mod menu for S1x. It's rather limited for now due string overflow errors. Mod menu will be improved once I'm able to fix this issue.
 
-Also Survival will be a thing for the future.
+Also Survival will be a thing for the future. (It works but it may contain bugs since I have not tested it)
 
 ## Features
 - Infinite ammo
@@ -12,9 +12,11 @@ Also Survival will be a thing for the future.
 - Spawn various hidden weapons
 
 ## How to install
-place the lua files in a folder in `<Game Directory Name>\s1x\scripts`
+Place the lua files in **a folder** in `<Game Directory Name>\s1x\scripts`
 
-![image](https://user-images.githubusercontent.com/70229620/123557973-202ec600-d794-11eb-9fbd-6928ab35be0c.png)
+**Example:**
+
+![image](https://user-images.githubusercontent.com/70229620/124950814-0bafc080-e013-11eb-8916-1ab129f07927.png)
 
 ## Binds
 **N** (+actionslot 1) - Open/close menu & Go Back</br>
@@ -26,6 +28,10 @@ place the lua files in a folder in `<Game Directory Name>\s1x\scripts`
 - String overflow error on some maps (Zombie map Infection for example doesn't work)
 
 ## FAQ
+**Q:** I can't open the menu?
+
+**A:** Make sure you did everything correct written in section **How to Install**
+##
 **Q:** I can't find the scripts folder?
 
 **A:** Create it.
