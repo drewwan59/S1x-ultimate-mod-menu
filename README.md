@@ -46,4 +46,4 @@ Place the lua files in **a folder** in `<Game Directory Name>\s1x\scripts`
 **A:** Not all weapon/killstreaks are loaded in every map, therefore you can't use them.
 
 ## Credits
-Thanks to **mjkzy** for creating the menu base (https://github.com/mjkzy/s1x-mod-menu) 
+Thanks to **mjkzy & DynamicWRLD** for creating the menu base (https://github.com/mjkzy/s1x-mod-menu) 
